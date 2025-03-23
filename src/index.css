@@ -1,0 +1,44 @@
+/* index.css */
+:root {
+  --primary-color: #3498db; /* Primary color for buttons and links */
+  --secondary-color: #2ecc71; /* Secondary color for accents */
+  --background-color: #f4f4f4; /* Background color */
+  --text-color: #333; /* Default text color */
+  --header-bg: #2c3e50; /* Header background color */
+  --header-text: #fff; /* Header text color */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
